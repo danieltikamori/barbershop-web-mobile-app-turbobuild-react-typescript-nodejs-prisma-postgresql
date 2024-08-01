@@ -87,3 +87,7 @@ Find and duplicate the line containing    "ios": "expo start --ios", (usually li
 
 Replace the upper ios to dev:     "dev": "expo start --ios",
 
+Now it is a good moment to commit to your Git repository.
+If you get `error: 'apps/backend/' does not have a commit checked out
+fatal: adding files failed`, remove the .git directory at backend/ and try again.
+
